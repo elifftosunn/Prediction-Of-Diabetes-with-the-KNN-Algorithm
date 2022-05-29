@@ -10,7 +10,7 @@ df = pd.read_csv("diabetes.csv")
 print(df.isnull().sum())
 print(df.columns)
 
-# We''ll using histograms to visualize the different classes and the values they contain
+# We'll using histograms to visualize the different classes and the values they contain
 df.hist(bins=50, figsize = (10.0, 8.0))
 plt.show()
 
